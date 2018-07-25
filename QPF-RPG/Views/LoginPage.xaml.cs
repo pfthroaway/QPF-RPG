@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QPF_RPG.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,9 +19,12 @@ namespace QPF_RPG.Views
     /// <summary>Interaction logic for Loginpage.xaml</summary>
     public partial class LoginPage : Page
     {
-        public LoginPage()
+        public LoginPage() => InitializeComponent();
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            InitializeComponent();
+            GameState.CalculateScale(Grid);
+            BtnFuckQuincy.Content = "_SUCK IT!";
         }
     }
 }
