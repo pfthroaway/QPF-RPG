@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using QPF_RPG.Views;
 using System.Windows.Controls;
 
 namespace QPF_RPG.Models
