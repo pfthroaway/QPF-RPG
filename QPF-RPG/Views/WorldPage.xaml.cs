@@ -16,17 +16,17 @@ using System.Windows.Shapes;
 
 namespace QPF_RPG.Views
 {
-    /// <summary>Interaction logic for Loginpage.xaml</summary>
-    public partial class LoginPage : Page
+    /// <summary>Interaction logic for WorldPage.xaml</summary>
+    public partial class WorldPage : Page
     {
-        public LoginPage() => InitializeComponent();
-
-        private void Page_Loaded(object sender, RoutedEventArgs e)
+        public WorldPage()
         {
-            GameState.CalculateScale(Grid);
-            TxtLogin.Focus();
+            InitializeComponent();
         }
 
-        private void BtnLogin_Click(object sender, RoutedEventArgs e) => GameState.Navigate(new WorldPage());
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            GameState.GoBack();
+        }
     }
 }
