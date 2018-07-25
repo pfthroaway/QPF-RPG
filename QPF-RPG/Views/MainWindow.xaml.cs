@@ -68,6 +68,7 @@ namespace QPF_RPG.Views
 
         private void WindowMain_Loaded(object sender, RoutedEventArgs e)
         {
+            GameState.MainWindow = this;
         }
 
         private void MainFrame_OnSizeChanged(object sender, SizeChangedEventArgs e) => CalculateScale();
