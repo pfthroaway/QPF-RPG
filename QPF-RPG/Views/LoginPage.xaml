@@ -11,6 +11,6 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
-        <Button x:Name="BtnFuckQuincy" Content="_Fuck Quincy" FontFamily="Segoe UI Semibold" FontSize="24" Background="Green" Foreground="White" Width="200" Height="100" />
+        <Button x:Name="BtnFuckQuincy" Content="_Fuck Quincy" FontFamily="Segoe UI Semibold" FontSize="24" Background="Green" Foreground="White" Width="200" Height="100" Click="BtnFuckQuincy_Click" />
     </Grid>
 </Page>

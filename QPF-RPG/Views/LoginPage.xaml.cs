@@ -26,5 +26,10 @@ namespace QPF_RPG.Views
             GameState.CalculateScale(Grid);
             BtnFuckQuincy.Content = "_SUCK IT!";
         }
+
+        private void BtnFuckQuincy_Click(object sender, RoutedEventArgs e)
+        {
+            GameState.Navigate(new WorldPage());
+        }
     }
 }
