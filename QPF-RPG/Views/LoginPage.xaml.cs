@@ -24,12 +24,16 @@ namespace QPF_RPG.Views
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
             GameState.CalculateScale(Grid);
-            BtnFuckQuincy.Content = "_SUCK IT!";
+            TxtLogin.Focus();
         }
 
+<<<<<<< HEAD
         private void BtnFuckQuincy_Click(object sender, RoutedEventArgs e)
         {
             GameState.Navigate(new WorldPage());
         }
+=======
+        private void BtnLogin_Click(object sender, RoutedEventArgs e) => GameState.Navigate(new WorldPage());
+>>>>>>> pf
     }
 }
