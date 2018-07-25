@@ -27,13 +27,11 @@ namespace QPF_RPG.Views
             TxtLogin.Focus();
         }
 
-<<<<<<< HEAD
         private void BtnFuckQuincy_Click(object sender, RoutedEventArgs e)
         {
             GameState.Navigate(new WorldPage());
         }
-=======
+
         private void BtnLogin_Click(object sender, RoutedEventArgs e) => GameState.Navigate(new WorldPage());
->>>>>>> pf
     }
 }

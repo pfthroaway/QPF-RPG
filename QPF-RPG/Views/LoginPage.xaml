@@ -11,9 +11,6 @@
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="Auto" />
         </Grid.ColumnDefinitions>
-<<<<<<< HEAD
-        <Button x:Name="BtnFuckQuincy" Content="_Fuck Quincy" FontFamily="Segoe UI Semibold" FontSize="24" Background="Green" Foreground="White" Width="200" Height="100" Click="BtnFuckQuincy_Click" />
-=======
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -29,6 +26,5 @@
         <PasswordBox x:Name="PswdPassword" Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" Margin="0,0,0,10" />
         <Button x:Name="BtnLogin" Grid.Column="0" Grid.Row="5" Content="_Login" HorizontalAlignment="Center" FontFamily="Segoe UI Semibold" FontSize="16" Width="200" Height="40" Click="BtnLogin_Click" Margin="0,0,10,0" />
         <Button x:Name="BtnRegister" Grid.Column="1" Grid.Row="5" Content="_Register" HorizontalAlignment="Center" FontFamily="Segoe UI Semibold" FontSize="16" Width="200" Height="40" />
->>>>>>> pf
     </Grid>
 </Page>
