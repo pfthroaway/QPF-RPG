@@ -54,7 +54,7 @@ namespace QPF_RPG.Views
         {
             double yScale = ActualHeight / GameState.CurrentPageHeight;
             double xScale = ActualWidth / GameState.CurrentPageWidth;
-            double value = Math.Min(xScale, yScale) * 0.8;
+            double value = Math.Min(xScale, yScale);
             if (value > 3)
                 value = 3;
             else if (value < 1)
